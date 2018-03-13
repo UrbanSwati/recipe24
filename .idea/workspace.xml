@@ -23,6 +23,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="20" />
     <option name="y" value="43" />
