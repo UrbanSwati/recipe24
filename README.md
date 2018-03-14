@@ -18,10 +18,11 @@ Recipe24 is a simple recipe app build with Django
 - Adding new recipes to our collection. 
 - Viewing the details on a recipe.
 
-####Instructions
+#### Instructions
 You will need to have installed [Django](https://docs.djangoproject.com/en/2.0/topics/install/) and [Python](https://www.python.org/downloads/)
 
-After cloning change into the outer **mysite** directory, if you haven’t already, and run the following commands:
+After cloning change into the outer **mysite** directory. 
+If you haven’t already, and run the following commands:
 `python manage.py runserver`
 
 You’ll see the following output on the command line:
