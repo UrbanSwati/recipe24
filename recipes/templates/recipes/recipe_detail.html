@@ -1,0 +1,17 @@
+{% extends 'base_layout.html' %}
+
+{% block content %}
+
+<div class="recipe-detail">
+    <img src="{{recipe.photo.url}}" alt="">
+    <h2>{{ recipe.title }}</h2>
+    <p>Rating: {{ recipe.rating}}</p>
+    <p>Cooking time: {{ recipe.cooking_time}}</p>
+    <p>Prep time: {{ recipe.prep_time}}</p>
+    <p>Servring: {{ recipe.servings}}</p>
+    <p>Ingredients: {{ recipe.ingredients }}</p>
+    <p>Cooking_instructions:</p>
+    <p> {{ recipe.cooking_instructions }}</p>
+</div>
+
+{% endblock %}

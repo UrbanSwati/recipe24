@@ -1,0 +1,16 @@
+{% extends 'base_layout.html' %}
+
+{% block content %}
+    <h1>recipes list</h1>
+    <div class="recepies">
+        {% for recipe in recipes %}
+        <div class="recipe">
+            <img src="{{recipe.photo.url}}" alt="" srcset="">
+            <h2><a href="{% url 'recipe-detail' id=recipe.id%}">{{recipe.title}}</a></h2>
+            <p>{{recipe.rating}}</p>
+            <p><strong>Cook:</strong>{{recipe.cooking_time}} <strong>Makes:</strong>{{recipe.servings}}</p>
+        </div>
+
+        {% endfor %}
+    </div>
+{% endblock %}
